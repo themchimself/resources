@@ -1,0 +1,45 @@
+OK! So, this is the actual guide.
+
+Terminal is actually a UNIX command line terminal, because MacOS is a version of UNIX.
+Linux also comes from UNIX. Matter of fact, basically every operating system started with unix.
+
+Thus, if you learn how to use one unix system you can effectively get the rest of them.
+
+So! You already learned how to use the spotlight search to start up terminal.
+
+When you start the terminal, it will always put you in what is called the "Home" directory.
+In UNIX based filesystems, directories are effectively folders that contain either more folders or files.
+The directory (or folder) that contains literally everything else is called "root".
+Type "pwd" and hit enter. The terminal will return the exact location that your home directory starts in.
+
+From where you start, if you type "ls", the terminal will return a list of files.
+Now, it's bad practice but I tend to leave my code as a folder on my desktop for easy access.
+You can do that in the future, but for now we just need to build you a spot to put code.
+
+type "mkdir [the name of the folder you want to put your code in]".
+Now if you type "ls", your new directory (folder) should show up.
+Type "cd [folder name]". Cd is short for "change directory".
+It will move you from your home directory into the new directory with your code.
+If you accidentally change into the wrong directory, type "cd ..", which will take you back up one folder.
+
+Once you are there, we need to actually create a file.
+Type "touch demo.txt" and hit enter. Now, in your code folder, there will be a new text file.
+You can use any text editor to change what's in the folder, but given you're new I recommend downloading Atom.
+
+Once you have some kind of IDE (Integrated Developer Environment), you have everything you need to actually make stuff.
+That said, if you're a hardcore kind of person, look into nano, vi/vim, or if you're extra special emacs.
+
+Ok, so now you have something to edit code with, and you know how to actually get around with the terminal.
+
+TO CREATE AND RUN A PYTHON FILE:
+1. touch helloworld.py
+2. python helloworld.py
+
+This will do nothing, because there is no code in your python file.
+Open up atom and use it to edit "helloworld.py". If you can't find the files, there is a shortcut in terminal:
+when you are in the right directory, type "atom .", which will open atom and use your code directory as your project folder in atom.
+
+Then, you should see "helloworld.py" appear in the lefthand side in atom. Click it, and add some kind of print statement to your program.
+Save the file, then go back to terminal and try typing "python helloworld.py".
+
+Your print statement should work! Congratulations, you can now create and run code. Feelsgood.jpeg!
